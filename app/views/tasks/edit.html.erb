@@ -1,0 +1,4 @@
+<%= render 'form', task: @task %>
+<%= link_to "delete", tasks_path,
+  method: :delete,
+  data: { confirm: "Are you sure?" } %>

@@ -1,0 +1,11 @@
+<h2><%= @task[:title]%></h2>
+<h3><%= @task[:details]%></h3>
+
+<input type="check_box" name="task" >
+<label for="task"> <%= "task completed?" %> </label>
+<br>
+<%=link_to "back to list", task_path%>
+
+<%= link_to "EDIT", edit_path%>
+
+
